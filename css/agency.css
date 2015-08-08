@@ -9,6 +9,9 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.gray-bg{
+    background-color: #D7D7D7;
+}
 .text-muted {
     color: #777;
 }
