@@ -409,15 +409,17 @@ section h5.section-eng {
 
 .about-desc{
     font-size: 18px;
+    margin: auto;
 }
 
 .team-member {
+    margin: auto;
     margin-bottom: 50px;
     text-align: center;
 }
 
 .team-member img {
-    margin: 0 auto;
+    margin: auto;
     border: 7px solid #fff;
 }
 
@@ -467,11 +469,14 @@ section h5.section-eng {
     background-color: #4D0000;
 }
 
-#phone{
+
+.phone{
     font-size: 22px;
     font-weight: bold;
     margin-left: 5px;
 }
+
+
 
 
 footer {
@@ -502,31 +507,27 @@ footer ul.quicklinks {
     line-height: 40px;
 }
 
-.footer-address{
-    
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
 #footer-num{
     float: right;
+    margin-right: 10px;
 }
 
 @media(max-width:800px){
-    .footer-address{
-        visibility: hidden;
-    }
+
     #footer-num{
-        float: left;
-        margin-left: 20px;
+        float: right;
+        margin-right: 20px;
     }
 }
 
-@media(max-width:700px){
-    #footer-num{
-        visibility: hidden;
+@media(max-width:400px){
+    .copyright{
+        margin-left: 5px;
     }
-  
+
 }
+
 
 ul.social-buttons {
     margin-bottom: 0;
